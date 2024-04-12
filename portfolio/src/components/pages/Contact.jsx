@@ -2,19 +2,17 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    
+        <div className="card text-bg-warning mb-3" style="max-width: 18rem;">
+          <div className="card-header">Let's work together</div>
+          <div className="card-body">
+            <h5 className="card-title">My Profile</h5>
+            <p className="card-text">Email:<a href="maolto:omrifrazer@gmail.com">omrifrazer@gmail.com</a></p>
+            <p className="card-text">Github:<a href="https://github.com/omri310">Github Profile</a></p>
+            <p className="card-text">Linkedin:<a href="https://www.linkedin.com/in/omri-frazer/">Linkedin Profile</a></p>
+          </div>
+        </div>
+      
     </div>
   );
 }
